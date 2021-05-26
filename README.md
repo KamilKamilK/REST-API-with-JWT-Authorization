@@ -31,17 +31,17 @@ Projekt powstał na życzenie osoby rekrutującej.
  Aplikacja zaiwera CarsFactory.php oraz UserFactory.php, które pomogą zapełnić bazę danych.
 
 * POST   api/auth/register
-*POST   api/auth/login
-*POST   api/auth/logout
-*POST   api/auth/refresh
-*GET    api/auth/profile
+* POST   api/auth/login
+* POST   api/auth/logout
+* POST   api/auth/refresh
+* GET    api/auth/profile
 
 oraz (należy pamiętać o wykorzystaniu bearer Token)
 
-*GET    api/cars   - wyświetli samochody stworzone przez wybranego usera
-*POST   api/cars   - utworzy nowy obiekt
-*PUT    api/cars/{id}  - zmodyfikuje wybrany obiekt
-*DELETE   api/cars/{id}  - usuwa wybrany obiekt z bazy danych
+* GET    api/cars   - wyświetli samochody stworzone przez wybranego usera
+* POST   api/cars   - utworzy nowy obiekt
+* PUT    api/cars/{id}  - zmodyfikuje wybrany obiekt
+* DELETE   api/cars/{id}  - usuwa wybrany obiekt z bazy danych
 
 
 
